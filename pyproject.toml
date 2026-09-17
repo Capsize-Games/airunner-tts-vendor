@@ -10,6 +10,9 @@ readme = "README.md"
 license = "MIT"
 requires-python = ">=3.13"
 authors = [{ name = "Capsize LLC" }]
+classifiers = [
+    "Programming Language :: Python :: 3.13",
+]
 dependencies = [
     # Lightweight text/audio-format handling only. torch/torchaudio/
     # transformers are a separate "ml" extra (see below), matching
@@ -33,6 +36,11 @@ dependencies = [
     "anyascii==0.3.2",
     "loguru==0.7.3",
 ]
+
+[project.urls]
+Homepage = "https://github.com/Capsize-Games/airunner-tts-vendor"
+Source = "https://github.com/Capsize-Games/airunner-tts-vendor"
+"Used by" = "https://github.com/Capsize-Games/airunner"
 
 [project.optional-dependencies]
 # torch/torchaudio/transformers, matching the pins
