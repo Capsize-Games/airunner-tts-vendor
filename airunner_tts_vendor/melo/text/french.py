@@ -1,7 +1,7 @@
-from airunner_services.vendor.melo.text.fr_phonemizer import cleaner as fr_cleaner
-from airunner_services.vendor.melo.text.fr_phonemizer import fr_to_ipa
+from airunner_tts_vendor.melo.text.fr_phonemizer import cleaner as fr_cleaner
+from airunner_tts_vendor.melo.text.fr_phonemizer import fr_to_ipa
 
-from airunner_services.vendor.melo.text.language_base import LanguageBase
+from airunner_tts_vendor.melo.text.language_base import LanguageBase
 
 
 class French(LanguageBase):

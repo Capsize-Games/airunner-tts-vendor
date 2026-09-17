@@ -1,17 +1,17 @@
 import re
 
-from airunner_services.vendor.melo.text import symbols
-from airunner_services.vendor.melo.text.english_utils.abbreviations import (
+from airunner_tts_vendor.melo.text import symbols
+from airunner_tts_vendor.melo.text.english_utils.abbreviations import (
     expand_abbreviations,
 )
-from airunner_services.vendor.melo.text.english_utils.time_norm import (
+from airunner_tts_vendor.melo.text.english_utils.time_norm import (
     expand_time_english,
 )
-from airunner_services.vendor.melo.text.english_utils.number_norm import (
+from airunner_tts_vendor.melo.text.english_utils.number_norm import (
     normalize_numbers,
 )
 
-from airunner_services.vendor.melo.text.language_base import LanguageBase
+from airunner_tts_vendor.melo.text.language_base import LanguageBase
 
 
 class English(LanguageBase):

@@ -1,7 +1,7 @@
 import abc
 from typing import List, Tuple
 
-from airunner_services.vendor.melo.text.es_phonemizer.punctuation import Punctuation
+from airunner_tts_vendor.melo.text.es_phonemizer.punctuation import Punctuation
 
 
 class BasePhonemizer(abc.ABC):

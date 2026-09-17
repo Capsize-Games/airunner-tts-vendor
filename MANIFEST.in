@@ -1,0 +1,10 @@
+include airunner_tts_vendor/melo/LICENSE
+include airunner_tts_vendor/melo/README.md
+include airunner_tts_vendor/melo/configs/*.json
+include airunner_tts_vendor/melo/data/example/*.list
+include airunner_tts_vendor/melo/text/cmudict.rep
+include airunner_tts_vendor/melo/text/opencpop-strict.txt
+recursive-include airunner_tts_vendor/melo/text/es_phonemizer *.json *.txt
+recursive-include airunner_tts_vendor/melo/text/fr_phonemizer *.json *.txt
+include airunner_tts_vendor/openvoice/LICENSE
+include airunner_tts_vendor/openvoice/README.md

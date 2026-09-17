@@ -1,8 +1,8 @@
 import re
-from airunner_services.vendor.openvoice.text.english import (
+from airunner_tts_vendor.openvoice.text.english import (
     english_to_ipa2,
 )
-from airunner_services.vendor.openvoice.text.mandarin import (
+from airunner_tts_vendor.openvoice.text.mandarin import (
     chinese_to_ipa,
 )
 

@@ -1,7 +1,7 @@
 """from https://github.com/keithito/tacotron"""
 
-from airunner_services.vendor.openvoice.text import cleaners
-from airunner_services.vendor.openvoice.text.symbols import symbols
+from airunner_tts_vendor.openvoice.text import cleaners
+from airunner_tts_vendor.openvoice.text.symbols import symbols
 
 
 # Mappings from symbol to numeric ID and vice versa:
@@ -47,7 +47,7 @@ def cleaned_text_to_sequence(cleaned_text, symbols):
     return sequence
 
 
-from airunner_services.vendor.openvoice.text.symbols import language_tone_start_map
+from airunner_tts_vendor.openvoice.text.symbols import language_tone_start_map
 
 
 def cleaned_text_to_sequence_vits2(

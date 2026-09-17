@@ -1,10 +1,10 @@
 import re
 import unicodedata
 
-from airunner_services.vendor.melo.text import symbols
+from airunner_tts_vendor.melo.text import symbols
 from pykakasi import kakasi
 from num2words import num2words
-from airunner_services.vendor.melo.text.japanese_settings import (
+from airunner_tts_vendor.melo.text.japanese_settings import (
     punctuation,
     _CONVRULES,
     _ALPHASYMBOL_YOMI,
@@ -18,7 +18,7 @@ from airunner_services.vendor.melo.text.japanese_settings import (
     rep_map,
 )
 
-from airunner_services.vendor.melo.text.language_base import LanguageBase
+from airunner_tts_vendor.melo.text.language_base import LanguageBase
 
 
 class Japanese(LanguageBase):

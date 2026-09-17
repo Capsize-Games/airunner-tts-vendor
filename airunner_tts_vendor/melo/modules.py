@@ -6,12 +6,12 @@ from torch.nn import functional as F
 from torch.nn import Conv1d
 from torch.nn.utils import weight_norm, remove_weight_norm
 
-from airunner_services.vendor.melo import commons
-from airunner_services.vendor.melo.commons import init_weights, get_padding
-from airunner_services.vendor.melo.transforms import (
+from airunner_tts_vendor.melo import commons
+from airunner_tts_vendor.melo.commons import init_weights, get_padding
+from airunner_tts_vendor.melo.transforms import (
     piecewise_rational_quadratic_transform,
 )
-from airunner_services.vendor.melo.attentions import Encoder
+from airunner_tts_vendor.melo.attentions import Encoder
 
 LRELU_SLOPE = 0.1
 

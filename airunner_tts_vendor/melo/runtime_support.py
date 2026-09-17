@@ -20,7 +20,7 @@ import os
 from pathlib import Path
 from typing import Callable, Optional
 
-_LOGGER_NAME = "airunner_services.vendor.melo"
+_LOGGER_NAME = "airunner_tts_vendor.melo"
 
 _tts_model_root_resolver: Optional[Callable[[], Optional[str]]] = None
 _tts_model_base_resolver: Optional[Callable[[], str]] = None

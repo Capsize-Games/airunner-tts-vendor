@@ -7,12 +7,12 @@ import cn2an
 from pypinyin import lazy_pinyin, Style
 import jieba.posseg as psg
 
-from airunner_services.vendor.melo.text.symbols import language_tone_start_map
-from airunner_services.vendor.melo.text.tone_sandhi import ToneSandhi
+from airunner_tts_vendor.melo.text.symbols import language_tone_start_map
+from airunner_tts_vendor.melo.text.tone_sandhi import ToneSandhi
 
-from airunner_services.vendor.melo.text.language_base import LanguageBase
-from airunner_services.vendor.melo.text.english import English
-from airunner_services.vendor.melo.text.chinese import Chinese
+from airunner_tts_vendor.melo.text.language_base import LanguageBase
+from airunner_tts_vendor.melo.text.english import English
+from airunner_tts_vendor.melo.text.chinese import Chinese
 
 
 class ChineseMix(LanguageBase):

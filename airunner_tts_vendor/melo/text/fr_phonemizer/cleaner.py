@@ -3,7 +3,7 @@
 # TODO: pick the cleaner for languages dynamically
 
 import re
-from airunner_services.vendor.melo.text.fr_phonemizer.french_abbreviations import (
+from airunner_tts_vendor.melo.text.fr_phonemizer.french_abbreviations import (
     abbreviations_fr,
 )
 

@@ -1,43 +1,43 @@
 import copy
 from importlib import import_module
 
-from airunner_services.vendor.melo.language import Language
-from airunner_services.vendor.melo.text import cleaned_text_to_sequence
+from airunner_tts_vendor.melo.language import Language
+from airunner_tts_vendor.melo.text import cleaned_text_to_sequence
 
 
 class Cleaner:
     def __init__(self):
         self.language_module_map = {
             Language.ZH: (
-                "airunner_services.vendor.melo.text.chinese",
+                "airunner_tts_vendor.melo.text.chinese",
                 "Chinese",
             ),
             Language.JP: (
-                "airunner_services.vendor.melo.text.japanese",
+                "airunner_tts_vendor.melo.text.japanese",
                 "Japanese",
             ),
             Language.EN: (
-                "airunner_services.vendor.melo.text.english",
+                "airunner_tts_vendor.melo.text.english",
                 "English",
             ),
             Language.ZH_MIX_EN: (
-                "airunner_services.vendor.melo.text.chinese_mix",
+                "airunner_tts_vendor.melo.text.chinese_mix",
                 "ChineseMix",
             ),
             Language.KR: (
-                "airunner_services.vendor.melo.text.korean",
+                "airunner_tts_vendor.melo.text.korean",
                 "Korean",
             ),
             Language.FR: (
-                "airunner_services.vendor.melo.text.french",
+                "airunner_tts_vendor.melo.text.french",
                 "French",
             ),
             Language.SP: (
-                "airunner_services.vendor.melo.text.spanish",
+                "airunner_tts_vendor.melo.text.spanish",
                 "Spanish",
             ),
             Language.ES: (
-                "airunner_services.vendor.melo.text.spanish",
+                "airunner_tts_vendor.melo.text.spanish",
                 "Spanish",
             ),
         }

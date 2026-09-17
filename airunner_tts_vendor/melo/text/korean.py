@@ -1,15 +1,15 @@
 import re
 
-from airunner_services.vendor.melo.text import punctuation
+from airunner_tts_vendor.melo.text import punctuation
 
 
-from airunner_services.vendor.melo.text.ko_dictionary import (
+from airunner_tts_vendor.melo.text.ko_dictionary import (
     english_dictionary,
     etc_dictionary,
 )
 from jamo import hangul_to_jamo
 
-from airunner_services.vendor.melo.text.language_base import LanguageBase
+from airunner_tts_vendor.melo.text.language_base import LanguageBase
 
 
 class Korean(LanguageBase):

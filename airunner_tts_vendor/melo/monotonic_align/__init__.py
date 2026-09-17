@@ -1,7 +1,7 @@
 from numpy import zeros, int32, float32
 from torch import from_numpy
 
-from airunner_services.vendor.melo.monotonic_align.core import maximum_path_jit
+from airunner_tts_vendor.melo.monotonic_align.core import maximum_path_jit
 
 
 def maximum_path(neg_cent, mask):

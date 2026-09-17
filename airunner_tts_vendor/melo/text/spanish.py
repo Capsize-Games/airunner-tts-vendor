@@ -1,9 +1,9 @@
 import re
 
-from airunner_services.vendor.melo.text import symbols
-from airunner_services.vendor.melo.text.es_phonemizer import cleaner as es_cleaner
-from airunner_services.vendor.melo.text.es_phonemizer import es_to_ipa
-from airunner_services.vendor.melo.text.language_base import LanguageBase
+from airunner_tts_vendor.melo.text import symbols
+from airunner_tts_vendor.melo.text.es_phonemizer import cleaner as es_cleaner
+from airunner_tts_vendor.melo.text.es_phonemizer import es_to_ipa
+from airunner_tts_vendor.melo.text.language_base import LanguageBase
 
 
 class Spanish(LanguageBase):

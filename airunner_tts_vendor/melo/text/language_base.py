@@ -3,7 +3,7 @@ import torch
 import os
 
 from transformers import AutoTokenizer, AutoModelForMaskedLM
-from airunner_services.vendor.melo.runtime_support import (
+from airunner_tts_vendor.melo.runtime_support import (
     get_melo_logger,
     resolve_cache_root,
     resolve_tts_model_path,

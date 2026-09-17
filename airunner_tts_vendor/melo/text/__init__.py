@@ -1,9 +1,9 @@
-from airunner_services.vendor.melo.language import Language
-from airunner_services.vendor.melo.text.symbols import *
+from airunner_tts_vendor.melo.language import Language
+from airunner_tts_vendor.melo.text.symbols import *
 
 
 _symbol_to_id = {s: i for i, s in enumerate(symbols)}
-from airunner_services.vendor.melo.text import language_tone_start_map
+from airunner_tts_vendor.melo.text import language_tone_start_map
 
 
 def cleaned_text_to_sequence(

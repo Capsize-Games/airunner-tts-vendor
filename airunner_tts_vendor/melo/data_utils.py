@@ -4,17 +4,17 @@ import torch
 import torch.utils.data
 from tqdm import tqdm
 from loguru import logger
-from airunner_services.vendor.melo.language import Language
-from airunner_services.vendor.melo.mel_processing import (
+from airunner_tts_vendor.melo.language import Language
+from airunner_tts_vendor.melo.mel_processing import (
     spectrogram_torch,
     mel_spectrogram_torch,
 )
-from airunner_services.vendor.melo.utils import load_filepaths_and_text
-from airunner_services.vendor.melo.utils import (
+from airunner_tts_vendor.melo.utils import load_filepaths_and_text
+from airunner_tts_vendor.melo.utils import (
     load_wav_to_torch_librosa as load_wav_to_torch,
 )
-from airunner_services.vendor.melo.text import cleaned_text_to_sequence
-from airunner_services.vendor.melo import commons
+from airunner_tts_vendor.melo.text import cleaned_text_to_sequence
+from airunner_tts_vendor.melo import commons
 
 """Multi speaker version"""
 

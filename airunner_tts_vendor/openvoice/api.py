@@ -2,13 +2,13 @@ import torch
 import numpy as np
 import re
 import soundfile
-from airunner_services.vendor.openvoice.language import Language
-from airunner_services.vendor.openvoice import utils
-from airunner_services.vendor.openvoice import commons
+from airunner_tts_vendor.openvoice.language import Language
+from airunner_tts_vendor.openvoice import utils
+from airunner_tts_vendor.openvoice import commons
 import os
 import librosa
-from airunner_services.vendor.openvoice.mel_processing import spectrogram_torch
-from airunner_services.vendor.openvoice.models import SynthesizerTrn
+from airunner_tts_vendor.openvoice.mel_processing import spectrogram_torch
+from airunner_tts_vendor.openvoice.models import SynthesizerTrn
 
 
 class OpenVoiceBaseClass(object):
@@ -52,7 +52,7 @@ class OpenVoiceBaseClass(object):
 class BaseSpeakerTTS(OpenVoiceBaseClass):
     @staticmethod
     def get_text(text, hps, is_symbol):
-        from airunner_services.vendor.openvoice.text import text_to_sequence
+        from airunner_tts_vendor.openvoice.text import text_to_sequence
 
         text_norm = text_to_sequence(
             text, hps.symbols, [] if is_symbol else hps.data.text_cleaners

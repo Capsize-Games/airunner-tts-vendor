@@ -3,15 +3,15 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-from airunner_services.vendor.melo import commons
-from airunner_services.vendor.melo import modules
-from airunner_services.vendor.melo import attentions
+from airunner_tts_vendor.melo import commons
+from airunner_tts_vendor.melo import modules
+from airunner_tts_vendor.melo import attentions
 
 from torch.nn import Conv1d, ConvTranspose1d, Conv2d
 from torch.nn.utils import weight_norm, remove_weight_norm, spectral_norm
 
-from airunner_services.vendor.melo.commons import init_weights, get_padding
-import airunner_services.vendor.melo.monotonic_align as monotonic_align
+from airunner_tts_vendor.melo.commons import init_weights, get_padding
+import airunner_tts_vendor.melo.monotonic_align as monotonic_align
 
 
 class DurationDiscriminator(nn.Module):  # vits2

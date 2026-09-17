@@ -1,5 +1,5 @@
 # punctuation = ["!", "?", "…", ",", ".", "'", "-"]
-from airunner_services.vendor.melo.language import Language
+from airunner_tts_vendor.melo.language import Language
 
 
 punctuation = ["!", "?", "…", ",", ".", "'", "-", "¿", "¡"]

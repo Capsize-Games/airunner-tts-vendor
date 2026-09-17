@@ -1,4 +1,4 @@
-from airunner_services.vendor.melo.text.fr_phonemizer.gruut_wrapper import Gruut
+from airunner_tts_vendor.melo.text.fr_phonemizer.gruut_wrapper import Gruut
 
 
 def remove_consecutive_t(input_str):

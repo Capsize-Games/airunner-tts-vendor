@@ -3,14 +3,14 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-from airunner_services.vendor.openvoice import commons
-from airunner_services.vendor.openvoice import modules
-from airunner_services.vendor.openvoice import attentions
+from airunner_tts_vendor.openvoice import commons
+from airunner_tts_vendor.openvoice import modules
+from airunner_tts_vendor.openvoice import attentions
 
 from torch.nn import Conv1d, ConvTranspose1d
 from torch.nn.utils import weight_norm, remove_weight_norm
 
-from airunner_services.vendor.openvoice.commons import init_weights
+from airunner_tts_vendor.openvoice.commons import init_weights
 
 
 class TextEncoder(nn.Module):

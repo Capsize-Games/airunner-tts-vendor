@@ -2,7 +2,7 @@ import re
 import json
 import numpy as np
 
-from airunner_services.vendor.openvoice.language import Language
+from airunner_tts_vendor.openvoice.language import Language
 
 
 def get_hparams_from_file(config_path):

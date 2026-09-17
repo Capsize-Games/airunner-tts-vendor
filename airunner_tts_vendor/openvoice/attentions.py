@@ -3,7 +3,7 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-from airunner_services.vendor.openvoice import commons
+from airunner_tts_vendor.openvoice import commons
 
 
 class LayerNorm(nn.Module):

@@ -7,14 +7,14 @@ import torch.nn as nn
 from tqdm import tqdm
 import torch
 from typing import Callable, Dict, Optional
-from airunner_services.vendor.melo.language import Language
-from airunner_services.vendor.melo import utils
-from airunner_services.vendor.melo.models import SynthesizerTrn
-from airunner_services.vendor.melo.split_utils import split_sentence
-from airunner_services.vendor.melo.text.cleaner import Cleaner
-from airunner_services.vendor.melo import commons
-from airunner_services.vendor.melo.text import cleaned_text_to_sequence
-from airunner_services.vendor.melo.runtime_support import resolve_tts_model_path
+from airunner_tts_vendor.melo.language import Language
+from airunner_tts_vendor.melo import utils
+from airunner_tts_vendor.melo.models import SynthesizerTrn
+from airunner_tts_vendor.melo.split_utils import split_sentence
+from airunner_tts_vendor.melo.text.cleaner import Cleaner
+from airunner_tts_vendor.melo import commons
+from airunner_tts_vendor.melo.text import cleaned_text_to_sequence
+from airunner_tts_vendor.melo.runtime_support import resolve_tts_model_path
 
 
 def _normalize_language(value) -> Language:
